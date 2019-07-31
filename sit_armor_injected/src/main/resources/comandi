@@ -1,0 +1,92 @@
+rosservice call /armor_interface_srv "armor_request:
+  client_name: ''
+  reference_name: 'ontoSIT'
+  command: 'LOAD'
+  primary_command_spec: 'FILE'
+  secondary_command_spec: ''
+  args: ['sitArmorInjected/src/main/java/it/emarolab/sitArmorInjected/table.owl', 'http://www.emarolab.it/sit/simple', 'true', 'pellet', 'true']" 
+
+
+rosservice call /sit_armor_injected "ontoReference: 'ontoSIT'         
+sceneElements:
+- type: 'CHAIR_X'
+  features: 
+   - -0.30 
+   - -0.16 
+   - 0.0
+- type: 'PIN_1'
+learningTreshold: 0.9" 
+
+rosservice call /sit_armor_injected "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: ''
+ontoReference: 'ontoSIT'
+sceneElements:
+  element:
+  - type: 'CHAIR_X'
+    features:
+     - -0.30 
+     - -0.16 
+     - 0.0
+  - type: 'PIN_1'
+learningTreshold: 0.9" 
+
+
+
+rosservice call /sit_armor_injected "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: ''
+ontoReference: 'ontoSIT'         
+sceneElements:
+  element:
+  - type: 'CHAIR_X'
+    features: 
+     - -0.30 
+     - -0.16 
+     - 0.0
+  - type: 'CHAIR_MINUS_X'
+    features: 
+     - -0.05 
+     - -0.15 
+     - 0.0
+  - type: 'PIN_1'
+  - type: 'PIN_2'
+learningTreshold: 0.9" 
+
+
+rosservice call /sit_armor_injected "header:
+  seq: 0
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: ''
+ontoReference: 'ontoSIT'         
+sceneElements:
+  element:
+  - type: 'CHAIR_X'
+    features: 
+     - -0.30 
+     - -0.16 
+     - 0.0
+  - type: 'CHAIR_MINUS_X'
+    features: 
+     - -0.05 
+     - -0.15 
+     - 0.0
+  - type: 'CHAIR_MINUS_Y'
+    features: 
+     - 0.03 
+     - -0.15 
+     - 0.0
+  - type: 'PIN_1'
+  - type: 'PIN_2'
+  - type: 'PIN_3'
+learningTreshold: 0.9"
+
+

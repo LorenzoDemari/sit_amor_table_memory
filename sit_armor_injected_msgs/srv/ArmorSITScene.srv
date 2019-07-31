@@ -1,0 +1,9 @@
+Header header                                
+                                    # Request:
+string             ontoReference    # the ontology where the scene si processed, it must be already load into aRMOR,
+SceneElementVector sceneElements    # the description of all the onbject in the scene,
+float64            learningTreshold # €[0,1] the similarity boud for learning a new scene.
+---
+                                    # Responce:
+string            learnedSceneName  # the name of the new scene in menory. It is empty if the scene was not learned,
+RecognitionVector recognitions      # the scene recognised. It is empty if the scene was not recognised.

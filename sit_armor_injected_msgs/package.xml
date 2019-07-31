@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>sit_armor_injected_msgs</name>
+  <version>1.0.0</version>
+  <description>The ROSjava messagies for the sit_armor_injected service </description>
+
+  
+  <maintainer email="luca.buoncompagni@edu.unige.it">Buoncompagni Luca</maintainer>
+  <author email="luca.buoncompagni@edu.unige.it">Buoncompagni Luca</author>
+  <url type="website">https://github.com/EmaroLab/sit_armor_injected</url>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

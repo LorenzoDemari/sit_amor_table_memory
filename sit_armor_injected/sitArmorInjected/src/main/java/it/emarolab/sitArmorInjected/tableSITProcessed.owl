@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/emaroLab/luca-buoncompagni/sit#"
+     xml:base="http://www.semanticweb.org/emaroLab/luca-buoncompagni/sit"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:simple="http://www.semanticweb.org/emaroLab/sit/simple#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:simple2="http://www.emarolab.it/sit/simple#"
+     xmlns:sit="http://www.semanticweb.org/emaroLab/luca-buoncompagni/sit#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.emarolab.it/sit/simple"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#connectedCHAIR_X -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.emarolab.it/sit/simple#connectedCHAIR_X"/>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#connectedPIN_1 -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.emarolab.it/sit/simple#connectedPIN_1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#hasSceneCounter -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.emarolab.it/sit/simple#hasSceneCounter"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#BED_MINUS_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#BED_MINUS_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#BED_MINUS_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#BED_MINUS_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#BED_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#BED_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#BED_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#BED_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#CHAIR_MINUS_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#CHAIR_MINUS_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#CHAIR_MINUS_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#CHAIR_MINUS_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#CHAIR_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#CHAIR_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#CHAIR_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#CHAIR_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#COUNTER_CLASS -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#COUNTER_CLASS"/>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#NOT_MINUS_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#NOT_MINUS_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#NOT_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#NOT_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#NOT_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#NOT_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#NOY_MINUS_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#NOY_MINUS_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_1 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_1">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_10 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_10">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_11 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_11">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_12 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_12">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_2 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_2">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_3 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_3">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_4 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_4">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_5 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_5">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_6 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_6">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_7 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_7">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_8 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_8">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#PIN_9 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#PIN_9">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#ROOF_MINUS_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#ROOF_MINUS_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#ROOF_MINUS_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#ROOF_MINUS_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#ROOF_X -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#ROOF_X">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#ROOF_Y -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#ROOF_Y">
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#SCENE -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#SCENE">
+        <owl:disjointWith rdf:resource="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#SCENE-0 -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#SCENE-0">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.emarolab.it/sit/simple#connectedCHAIR_X"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.emarolab.it/sit/simple#PIN_1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.emarolab.it/sit/simple#connectedPIN_1"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.emarolab.it/sit/simple#CHAIR_X"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.emarolab.it/sit/simple#SCENE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#SPATIAL-OBJECT -->
+
+
+    <owl:Class rdf:about="http://www.emarolab.it/sit/simple#SPATIAL-OBJECT"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.emarolab.it/sit/simple#SCENE-0-Srd -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.emarolab.it/sit/simple#SCENE-0-Srd">
+        <rdf:type rdf:resource="http://www.emarolab.it/sit/simple#COUNTER_CLASS"/>
+        <rdf:type rdf:resource="http://www.emarolab.it/sit/simple#SCENE-0"/>
+        <simple2:hasSceneCounter rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</simple2:hasSceneCounter>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#BED_MINUS_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#BED_MINUS_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#BED_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#BED_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#CHAIR_MINUS_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#CHAIR_MINUS_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#CHAIR_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#CHAIR_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#NOT_MINUS_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#NOT_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#NOT_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#NOY_MINUS_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_1"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_10"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_11"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_12"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_2"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_3"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_4"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_5"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_6"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_7"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_8"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#PIN_9"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#ROOF_MINUS_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#ROOF_MINUS_Y"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#ROOF_X"/>
+            <rdf:Description rdf:about="http://www.emarolab.it/sit/simple#ROOF_Y"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.0.5.20170104-0800) https://github.com/owlcs/owlapi/ -->
+
+
